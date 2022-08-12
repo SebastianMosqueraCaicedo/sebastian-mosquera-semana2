@@ -1,0 +1,21 @@
+1- make use of the css properties:
+
+	Margin
+	Padding
+	Display
+	Flex-direction
+	Flex-wrap
+	Justify-content
+	Align-items
+	Background-color
+	Border-radius
+	Border-style
+	font-family
+
+2- add media files such as:
+
+	png
+	mp4
+	mp3
+	gif
+
