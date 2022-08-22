@@ -1,16 +1,16 @@
 1- make use of the css properties:
 
-	Margin
-	Padding
-	Display
-	Flex-direction
-	Flex-wrap
-	Justify-content
-	Align-items
-	Background-color
-	Border-radius
-	Border-style
-	font-family
+	Margin DONE
+	Padding DONE
+	Display DONE
+	Flex-direction DONE
+	Flex-wrap (was not needed)
+	Justify-content DONE
+	Align-items DONE
+	Background-color DONE
+	Border-radius (not needed either)
+	Border-style DONE
+	font-family DONE
 
 2- add media files such as:
 
