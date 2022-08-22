@@ -3,7 +3,10 @@ html {
 }
 
 body {
-	padding: 0 13%;
+	margin: 0 20%;
+	padding: 0 3%;
+	border-left: 10px double #101010;
+	border-right: 10px double #101010;
 }
 
 header {
@@ -27,6 +30,8 @@ section {
 	display : flex; 
 	flex-direction: column;
 	align-items: center;
+	animation-duration: 2s;
+	animation-name: slidein;
 }
 
 footer {
@@ -39,6 +44,14 @@ img {
 	height: 200px;
 	width: 200px;
 	float: right;
+	animation-duration: 2s;
+	animation-name: slidein;
+	transition: width 2s, height 2s;
+}
+
+img:hover {
+	height: 300px;
+	width: 300px;
 }
 
 h1, h2 {
@@ -68,5 +81,30 @@ hard-font {
 	color: #F00000;
 	font-family: sans-serif;
 	text-shadow: -1px 1px red, 1px 1px red;
+	animation-duration: 0.1s;
+	animation-name: jig;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
+@keyframes slidein {
+	from {
+		margin-top: 100%;
+		top: 200%;
+	}
+
+	to {
+		margin-top: 0;
+		top: 0%;
+	}
+}
+
+@keyframes jig {
+	from {
+		text-shadow: -1px 1px red, 1px 1px red;
+	}
+
+	to {
+		text-shadow: 1px -1px red, -1px -1px red;
+	}
+}
